@@ -1,2 +1,29 @@
 # FileSplitter_cli
-[FileSplitter](https://github.com/new5Fpointer/FileSplitter)的命令行版本
+此版本为 [FileSplitter](https://github.com/new5Fpointer/FileSplitter) 的命令行版本
+
+---
+
+## 命令
+
+  `-h, --help`          显示帮助页面
+
+  `-i, --input INPUT`   输入文件路径
+
+  `-o, --output OUTPUT` 输出目录
+
+  `-m, --mode {chars,lines,parts,regex}`分割模式
+
+  `-s, --size SIZE`       字符数/行数/份数(取决于 -m)
+
+  `--in-enc IN_ENC`       输入文件编码，默认 auto
+
+  `--out-enc OUT_ENC`     输出文件编码，默认 utf-8
+
+  `--regex REGEX `        正则表达式(仅在 -m regex 时有效)
+
+  `--include-delimiter`   正则分割时是否包含分隔符
+
+## 支持的分割模式
+|  chars  | lines | parts | regex |
+| ------- | ------ | ----- | ----- |
+| 字符分割 | 行分割 |份数分割|正则分割|
