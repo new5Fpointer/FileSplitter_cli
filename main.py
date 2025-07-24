@@ -43,7 +43,7 @@ def cli_main():
         split_file_by_regex(args.input, args.output, args.regex,
                             args.in_enc, args.out_enc,
                             include_delimiter=args.include_delimiter)
-    print("✅ 完成！")
+    print("完成！")
 
 if __name__ == "__main__":
     cli_main()
