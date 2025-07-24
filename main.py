@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import argparse
 import os
 from core.splitter import split_file_by_chars, split_file_by_lines, split_file_by_parts, split_file_by_regex
